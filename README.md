@@ -37,6 +37,10 @@ We chose to look at the diffusion of a music on YouTube within a population. Whe
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 
+![image](https://user-images.githubusercontent.com/99737912/162968919-6da9fa5a-397d-4742-a111-96572adcb28a.png)
+![image](https://user-images.githubusercontent.com/99737912/162969147-d9d3ec0d-a70c-4f3c-92c6-e508cfb16d3c.png)
+
+
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
