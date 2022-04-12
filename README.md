@@ -1,4 +1,3 @@
-# diffusion-musique
 # Diffusion musique
 
 ARE DYNAMIC 2021-2022 -- ARNOUX Constance, BAITICHE Chanez, TEBBAL Anès
