@@ -37,8 +37,17 @@ We chose to look at the diffusion of a music on YouTube within a population. Whe
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 
-![image](https://user-images.githubusercontent.com/99737912/162968919-6da9fa5a-397d-4742-a111-96572adcb28a.png)
-![image](https://user-images.githubusercontent.com/99737912/162969147-d9d3ec0d-a70c-4f3c-92c6-e508cfb16d3c.png)
+
+![graphe sans moyenne](https://user-images.githubusercontent.com/99737912/162973615-42896e71-f47a-4f46-8b6e-7ed2c00d6be5.png)
+![graphe moyenne](https://user-images.githubusercontent.com/99737912/162974667-ada68676-5f98-4765-b276-4860932646e5.png)
+![graphe variance](https://user-images.githubusercontent.com/99737912/162974830-8bd86e42-94a7-456a-8814-14125454bf0e.png)
+![macklemore0](https://user-images.githubusercontent.com/99737912/162973539-0f84686b-daa7-4b4b-acf3-c93790e99fa9.png)
+![macklemore1](https://user-images.githubusercontent.com/99737912/162973410-f4459a06-bdc1-4bed-921c-3ee10ca5d551.png)
+![macklemore2](https://user-images.githubusercontent.com/99737912/162973287-9d1e0206-f54e-4417-bf62-3f72ab454164.png)
+![macklemore3](https://user-images.githubusercontent.com/99737912/162970477-968ebd3c-6874-4e34-a3ad-1727e22c4a66.png)
+![tuerie3](https://user-images.githubusercontent.com/99737912/162973046-6d9bf32c-b835-4f3f-8f57-a6b078b09537.png)
+![tuerie2](https://user-images.githubusercontent.com/99737912/162973156-6f672a3f-fcef-485f-9322-d1c3de37d92c.png)
+![tuerie1](https://user-images.githubusercontent.com/99737912/162973220-d948c9c2-d3eb-452b-b9a2-18e46c676f35.png)
 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
