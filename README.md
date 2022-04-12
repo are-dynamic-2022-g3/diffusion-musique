@@ -22,9 +22,9 @@ We chose to look at the diffusion of a music on YouTube within a population. Whe
 
 **Problématique :** En quoi un.e artiste, grâce à ses musiques, est apprécié.e par un type de public particulier?
 
-**Hypothèse principale :** Le public d'un.e artiste possède généralement des caractères en communs tels que l'âge, la nationalité ou encore le sexe.
+**Hypothèse principale :** 
 
-**Hypothèses secondaires :** Les artistes connus visent un certain public lorsqu'iels sortent une musique.
+**Hypothèses secondaires :** Le public d'un.e artiste possède généralement des caractères en communs tels que l'âge, la nationalité ou encore le sexe.
 
 **Objectifs :** Observer la diffusion d'une musique d'un.e artiste dans différents groupes d'individus.
 
