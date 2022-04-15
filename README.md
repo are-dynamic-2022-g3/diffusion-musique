@@ -6,6 +6,7 @@ ARE DYNAMIC 2021-2022 -- ARNOUX Constance, BAITICHE Chanez, TEBBAL Anès
 ### Version française
 
 *Résumé de quelques lignes la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus*
+
 Nous nous sommes inspirés de la méthode de Naming Game pour ce projet. Dans un premier temps nous avons créé un groupe et un graphe. Nous avons ensuite déterminé les auditeurs initiaux puis nous avons simulé une dynamique de diffusion. Nous avons alors observé des résultats et enfin nous avons testé des alternatives et modifié certains paramètres. Nous avons pu constater 
 
 Nous avons choisi de nous intéresser à la diffusion d’une musique sur YouTube au sein d’une population. Lorsqu’un artiste sort une musique, celle-ci n’est pas instantanément écoutée par tous, il y a plusieurs facteurs qui entrent en jeu. D’un côté il y a les caractéristiques de l’artiste comme son âge, sa nationalité, son sexe ou sa popularité en fonction de son nombre d’abonnés sur les réseaux sociaux. De l’autre il y a les caractéristiques du publique qui son l’âge moyen, la nationalité ou le sexe. Notre travail consistera donc à étudier la propagation d’une musique sur YouTube en fonction de son artiste et du public visé.
