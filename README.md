@@ -66,14 +66,22 @@ Nous pouvons dès lors compter le nombre d'étapes à réaliser avant d'atteindr
 
 <img width="283" alt="image" src="https://user-images.githubusercontent.com/99737912/163584016-bab612b8-3250-4dd5-a497-e63b2cb3fa46.png">
 
-On constate une hausse globale du nombre d'étapes mais pas de façon linéaire. D'après notre hypothèse, celà s'expliquerait par le fait que les artistes avec plus d'abonnés seront écoutés par plus de monde, donc la diffusion de leur musique prendra plus d'étapes.
+On constate une hausse globale du nombre d'étapes mais pas de façon linéaire. D'après notre hypothèse, cela s'expliquerait par le fait que les artistes avec plus d'abonnés seront écoutés par plus de monde, donc la diffusion de leur musique prendra plus d'étapes.
 
 Nous avons par la suite refait un graphe dont l'axe des abscisses est le même que le graphe précédent. Cependant celui des ordonnés diffère, c'est la moyenne du nombre d'écoutes totales. Nous avons répété l'experience plusieurs fois et avons représenté la courbe moyenne obtenue pour tous les artistes.
 
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/99737912/163586052-7b8d7a11-fcab-44f8-a02e-facb592bc89d.png">
 
 On remarque d'après cette courbe, et comme la précédente, que plus un artiste a d'abonnés sur Youtube, plus celui-ci sera écouté.
-Notre hypothèse initiale est donc validée
+Notre hypothèse initiale est donc validée.
+
+
+Après cela, nous avons réalisé une courbe représentant la variance du nombre d'étapes avant concensus pour chaque artiste.
+
+<img width="281" alt="image" src="https://user-images.githubusercontent.com/99737912/163591534-991f9e58-c79e-4ed0-a927-ef94454a340d.png">
+
+Contrairement à notre hypothèse secondaire, on remarque que la courbe de la variance est croissante puis décroisssante. Ce n'est donc pas le nombre d'abonnés qui définit la variance.
+L'hypothèse est donc réfutée.
 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
