@@ -72,6 +72,10 @@ Nous avons par la suite refait un graphe dont l'axe des abscisses est le même q
 
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/99737912/163586052-7b8d7a11-fcab-44f8-a02e-facb592bc89d.png">
 
+On remarque d'après cette courbe, et comme la précédente, que plus un artiste a d'abonnés sur Youtube, plus celui-ci sera écouté.
+Notre hypothèse initiale est donc validée
+
+
 
 
 
