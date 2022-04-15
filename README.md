@@ -75,6 +75,7 @@ Nous avons par la suite refait un graphe dont l'axe des abscisses est le même q
 
 
 
+
 ![graphe sans moyenne](https://user-images.githubusercontent.com/99737912/162973615-42896e71-f47a-4f46-8b6e-7ed2c00d6be5.png)
 
 ![graphe moyenne](https://user-images.githubusercontent.com/99737912/162974667-ada68676-5f98-4765-b276-4860932646e5.png)
