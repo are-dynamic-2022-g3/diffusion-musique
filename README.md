@@ -70,7 +70,6 @@ On constate une hausse globale du nombre d'étapes mais pas de façon linéaire.
 
 Nous avons par la suite refait un graphe dont l'axe des abscisses est le même que le graphe précédent. Cependant celui des ordonnés diffère, c'est la moyenne du nombre d'écoutes totales. Nous avons répété l'experience plusieurs fois et avons représenté la courbe moyenne obtenue pour tous les artistes.
 
-![image](https://user-images.githubusercontent.com/99737912/163585717-7628ed64-650f-40f0-b652-f5f987c6bc8c.png)
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/99737912/163586052-7b8d7a11-fcab-44f8-a02e-facb592bc89d.png">
 
 
