@@ -26,7 +26,7 @@ We chose to look at the diffusion of a music on YouTube within a population. Whe
 
 **Hypothèse principale :** La musique d'un artiste ayant beaucoup d'abonnés sur Youtube est plus diffusée que celle d'un artiste ayant moins d'abonnés.
 
-**Hypothèses secondaires :** Le public d'un.e artiste possède généralement des caractères en communs tels que l'âge, la nationalité ou encore le sexe.
+**Hypothèses secondaires :** Plus un artiste a d'abonnés, plus le nombre d'étapes avant que le consensus ne soit atteint est grand.
 
 **Objectifs :** Observer la diffusion d'une musique d'un.e artiste dans différents groupes d'individus.
 
@@ -67,7 +67,7 @@ Nous pouvons dès lors compter le nombre d'étapes à réaliser avant d'atteindr
 
 <img width="283" alt="image" src="https://user-images.githubusercontent.com/99737912/163584016-bab612b8-3250-4dd5-a497-e63b2cb3fa46.png">
 
-On constate une hausse globale du nombre d'étapes mais pas de façon linéaire. D'après notre hypothèse, cela s'expliquerait par le fait que les artistes avec plus d'abonnés seront écoutés par plus de monde, donc la diffusion de leur musique prendra plus d'étapes.
+On constate une hausse globale du nombre d'étapes mais pas de façon linéaire. D'après notre hypothèse principale, cela s'expliquerait par le fait que les artistes avec plus d'abonnés seront écoutés par plus de monde, donc la diffusion de leur musique prendra plus d'étapes. Au final, notre hypothèse secondaire est validée mais il existe plusieurs exeptions que nous remarquons sur la courbe: il y a des pics et des chutes brutales.
 
 Nous avons par la suite refait un graphe dont l'axe des abscisses est le même que le graphe précédent. Cependant celui des ordonnés diffère, c'est la moyenne du nombre d'écoutes totales. Nous avons répété l'experience plusieurs fois et avons représenté la courbe moyenne obtenue pour tous les artistes.
 
@@ -81,8 +81,15 @@ Après cela, nous avons réalisé une courbe représentant la variance du nombre
 
 <img width="281" alt="image" src="https://user-images.githubusercontent.com/99737912/163591534-991f9e58-c79e-4ed0-a927-ef94454a340d.png">
 
-Contrairement à notre hypothèse secondaire, on remarque que la courbe de la variance est croissante puis décroisssante. Ce n'est donc pas le nombre d'abonnés qui définit la variance.
-L'hypothèse est donc réfutée.
+On remarque que la courbe de la variance est croissante puis décroisssante. Ce n'est donc pas le nombre d'abonnés qui définit la variance.
+
+Pour toutes ces expériences, nous fixons certains paramètres. Voici leur valeur pour les images ci-dessus : 
+
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/99737912/163596491-81f486ba-ad62-4b43-b6d2-f66a9714dcec.png">
+
+Si on les modifie, les résultats varient : plus nb_public est grand moins le graphe est lisible par exemple, d'où notre choix de le fixer à 30.
+De plus, plus la proportion d'influenceurs est élevée et plus leur public écouteront la musique (parametres) plus la musique sera facilement diffusée dans le groupe. 
+Par ailleurs, la proportion de liens entre les individus de nationnalités différentes est élevée plus le graphe est connecté. 
 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
