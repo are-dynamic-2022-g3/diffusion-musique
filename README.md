@@ -54,7 +54,7 @@ Nous avons ensuite considéré que certains individus diffusent la musique de l'
 
 photo
 
-En fonction du nombre d'abonnés de l'artiste, un certains nombre d'individus va écouter la musqiue. Si ces personnes sont des influenceurs, ils seront en orange, sinon ils seront en rouge. Ainsi chaque sommet orange peut partager la musique avec ses voisins. C'est l'étape 1 du graphe.
+En fonction du nombre d'abonnés de l'artiste, un certain nombre d'individu va écouter la musqiue. Si ces personnes sont des influenceurs, ils seront en orange, sinon ils seront en rouge. Ainsi chaque sommet orange peut partager la musique avec ses voisins. C'est l'étape 1 du graphe.
 
 photo
 
