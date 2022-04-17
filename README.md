@@ -92,7 +92,8 @@ Pour toutes ces expériences, nous fixons certains paramètres. Voici leur valeu
 
 Si on les modifie, les résultats varient : plus nb_public est grand moins le graphe est lisible par exemple, d'où notre choix de le fixer à 30.
 De plus, plus la proportion d'influenceurs est élevée et plus leur public écouteront la musique (parametres) plus la musique sera facilement diffusée dans le groupe. 
-Par ailleurs, la proportion de liens entre les individus de nationnalités différentes est élevée plus le graphe est connecté. 
+Par ailleurs, plus la proportion de liens entre les individus de nationnalités différentes est élevée plus le graphe est connecté. 
+
 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
