@@ -46,29 +46,28 @@ Nous avons selectionné 13 artistes qui sont sur Youtube et nous en avons fait u
 
 Nous avons choisi de représenter par un graphe un échantillon de population de nb_personnes qui représente les utiliseurs de Youtube. Chaque sommet correspond ainsi à une personne et les arêtes sont les liens au sein du groupe. Les étiquettes sont les identifiants de chaque individu. 
 
-![image](https://user-images.githubusercontent.com/99737912/163718206-1d5d0ea2-bbcd-4717-870e-e141f788b0d7.png)
-
+![image](https://user-images.githubusercontent.com/99737912/163725291-5c76e5c2-106d-45bc-bc56-54c5c8e2fecb.png)
 
 Voici un exemple de graphe avec 30 individus.
 
 Nous avons ensuite considéré que certains individus diffusent la musique de l'artiste, ce sont des "influenceurs". Les autres peuvent écouter la musique mais ils ne peuvent pas la partager avec leurs voisins. Sur le graphe, les influenceurs sont en jaune. C'est l'étape 0 du graphe.
 
-![image](https://user-images.githubusercontent.com/99737912/163718200-1d25f533-211e-4cee-a21a-af32e64ac8ef.png)
+![image](https://user-images.githubusercontent.com/99737912/163725310-e860ae21-39b7-4135-9592-8da10fb7659f.png)
 
 
 En fonction du nombre d'abonnés de l'artiste, un certain nombre d'individu va écouter la musqiue. Si ces personnes sont des influenceurs, ils seront en orange, sinon ils seront en rouge. Ainsi chaque sommet orange peut partager la musique avec ses voisins. C'est l'étape 1 du graphe.
 
-![image](https://user-images.githubusercontent.com/99737912/163718183-63ba896c-3508-4ed9-a7c7-942755f9cea7.png)
+![image](https://user-images.githubusercontent.com/99737912/163725326-a33858a1-be82-430b-a343-57ddbdc5b9b4.png)
 
 
 La dynamique est lancée! Les voisins des influenceurs qui n'ont pas encore écouté la musique et qui décident de suivre l'influenceur vont l'écouter : ils sont en bleu sur le graphe. C'est l'étape 2 du graphe.
 
-![image](https://user-images.githubusercontent.com/99737912/163718225-9eb60edc-f50b-4f11-b5b5-bea23e9a0b58.png)
+![image](https://user-images.githubusercontent.com/99737912/163725333-c517fb85-9f7e-43b7-a9fc-e35c3029e420.png)
 
 Nous allons alors repéter l'expérience plusieurs fois. Nous considérons que lorsque pour tous les influenceurs qui ont écouté la musique et que pour hacun d'eux tout leurs voisins l'ont également écouté, alors le consensus est atteint. Plus personne d'autre n'écoutera la musique. 
 Nous pouvons dès lors compter le nombre d'étapes à réaliser avant d'atteindre le consensus. Nous observons des premiers résultats sur le graphe ci-dessous avec en abscisse les identifiants des artistes, triés par ordre croissant selon leur nombre d'abonnés, et en ordonné la moyenne du nombre d'étapes avant que le consensus ne soit atteint.
 
-<img width="283" alt="image" src="https://user-images.githubusercontent.com/99737912/163584016-bab612b8-3250-4dd5-a497-e63b2cb3fa46.png">
+![image](https://user-images.githubusercontent.com/99737912/163725360-ac246919-6516-4551-8bfb-9d8962f952ec.png)
 
 On constate une hausse globale du nombre d'étapes mais pas de façon linéaire. D'après notre hypothèse principale, cela s'expliquerait par le fait que les artistes avec plus d'abonnés seront écoutés par plus de monde, donc la diffusion de leur musique prendra plus d'étapes. Au final, notre hypothèse secondaire est validée mais il existe plusieurs exeptions que nous remarquons sur la courbe: il y a des pics et des chutes brutales.
 
