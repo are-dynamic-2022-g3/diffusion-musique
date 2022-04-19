@@ -85,6 +85,11 @@ Après cela, nous avons réalisé une courbe représentant la variance du nombre
 
 ![image](https://user-images.githubusercontent.com/99737912/163954801-a0acbc1e-bdb1-4e07-a7d7-7334c7e860e7.png)
 
+croissance globale de la variance mais pas de façon linéaire , 
+moin de 100000 abonnés la variance est présque nulle, alors il n'a pas d'écart par par rapport la moyenne,
+car le tirage est alètoire,le nombre d'influenceurs est petit, alors on atteint le consoncus rpidement
+on constate une augemnation brutale de la variance a partir de 100000 abonnés,donc les valeurs s'éloigne de la moyenne car le nombre d'influenceurs  tiré est grand, la musique sera partagée partout.
+on remarque une petite décroissance de la variance avec un nombre d'abonnés trés grand , et on atteind  consencus rapidement car toute la population vont écouté la musique dans l'étape 1.
 
 On remarque que pour un artiste de moins de 100000 abonnés la variance est presque nulle, on peut en déduire que les valeurs sont proches de la moyenne. la courbe de la variance est croissante puis décroisssante. Ce n'est donc pas le nombre d'abonnés qui définit la variance.
 
