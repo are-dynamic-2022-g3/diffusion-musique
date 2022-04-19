@@ -84,7 +84,7 @@ Après cela, nous avons réalisé une courbe représentant la variance du nombre
 
 ![image](https://user-images.githubusercontent.com/99737912/163725415-40240d18-58a4-4d14-8a6d-06916460e172.png)
 
-On remarque que la courbe de la variance est croissante puis décroisssante. Ce n'est donc pas le nombre d'abonnés qui définit la variance.
+On remarque que pour un artiste de moins de 100000 abonnés la variance est presque nulle, on peut en déduire que les valeurs sont proches de la moyenne. la courbe de la variance est croissante puis décroisssante. Ce n'est donc pas le nombre d'abonnés qui définit la variance.
 
 Pour toutes ces expériences, nous fixons certains paramètres. Voici leur valeur pour les images ci-dessus : 
 
