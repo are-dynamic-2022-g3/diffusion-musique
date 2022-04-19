@@ -41,7 +41,8 @@ Présentation du choix de modélisation, des outils, du code et des résultats (
 
 Nous avons selectionné 13 artistes qui sont sur Youtube et nous en avons fait un tableau. Pour chaque artiste nous avons repertorié leur nationnalité, leur âge, leur sexe et leur nombre d'abonnés sur Youtube. Ce tableau est trié en fonction du nombre d'abonnés sur Youtube par ordre croissant. Un artiste est ensuite tiré aléatoirement pour une expérience.
 
-<img width="260" alt="image" src="https://user-images.githubusercontent.com/99737912/163581711-be90382e-8647-4104-b654-d91b1f49164a.png">
+<img width="258" alt="image" src="https://user-images.githubusercontent.com/99737912/163948241-3cb3cbed-147e-4e97-a689-6bd6e15228ba.png">
+
  Voici le tableau des artistes.
 
 Nous avons choisi de représenter par un graphe un échantillon de population de nb_personnes qui représente les utiliseurs de Youtube. Chaque sommet correspond ainsi à une personne et les arêtes sont les liens au sein du groupe. Les étiquettes sont les identifiants de chaque individu. 
