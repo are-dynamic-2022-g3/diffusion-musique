@@ -117,6 +117,13 @@ Graphe à l'étape 1 pour une population de 30 individus, dont un septième d'in
 Graphe à l'étape 2 avec les paramètres ci-dessus.
 
 
+Nous avons créé des simulations altérnatives. Tout d'abord, nous avons une fonction qui créé un graphe sans tenir compte des nationnalités. Nous avons également une fonction qui "fabrique" un artiste de manière aléatoire. Son âge, son sexe, sa nationnalité (représentée par un entier) et ses abonnés sont déterminés au hasard.
+
+![image](https://user-images.githubusercontent.com/99737912/163956992-9c28dd82-70d1-4e96-97a3-a061f2bf1e6b.png)
+
+Voici un graphe avec un artiste créé aléatoirement et dans lequel les liens entre des individus ne dépendent pas de leur nationnalité.
+
+
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
