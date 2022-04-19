@@ -68,7 +68,7 @@ La dynamique est lancée! Les voisins des influenceurs qui n'ont pas encore éco
 Nous allons alors repéter l'expérience plusieurs fois. Nous considérons que lorsque pour tous les influenceurs qui ont écouté la musique et que pour hacun d'eux tout leurs voisins l'ont également écouté, alors le consensus est atteint. Plus personne d'autre n'écoutera la musique. 
 Nous pouvons dès lors compter le nombre d'étapes à réaliser avant d'atteindre le consensus. Nous observons des premiers résultats sur le graphe ci-dessous avec en abscisse les identifiants des artistes, triés par ordre croissant selon leur nombre d'abonnés, et en ordonné la moyenne du nombre d'étapes avant que le consensus ne soit atteint.
 
-![image](https://user-images.githubusercontent.com/99737912/163725450-9a3579fa-fb71-47b9-a0f6-469c67ab9c2f.png)
+![image](https://user-images.githubusercontent.com/99737912/163954310-b9eeba96-7bc7-4abc-b387-24fb5dfdd4e5.png)
 
 On constate une hausse globale du nombre d'étapes mais pas de façon linéaire. D'après notre hypothèse principale, cela s'expliquerait par le fait que les artistes avec plus d'abonnés seront écoutés par plus de monde, donc la diffusion de leur musique prendra plus d'étapes. Au final, notre hypothèse secondaire est validée mais il existe plusieurs exeptions que nous remarquons sur la courbe: il y a des pics et des chutes brutales.
 
@@ -83,7 +83,8 @@ Notre hypothèse initiale est donc validée.
 
 Après cela, nous avons réalisé une courbe représentant la variance du nombre d'étapes avant concensus pour chaque artiste.
 
-![image](https://user-images.githubusercontent.com/99737912/163725415-40240d18-58a4-4d14-8a6d-06916460e172.png)
+![image](https://user-images.githubusercontent.com/99737912/163954801-a0acbc1e-bdb1-4e07-a7d7-7334c7e860e7.png)
+
 
 On remarque que pour un artiste de moins de 100000 abonnés la variance est presque nulle, on peut en déduire que les valeurs sont proches de la moyenne. la courbe de la variance est croissante puis décroisssante. Ce n'est donc pas le nombre d'abonnés qui définit la variance.
 
@@ -95,6 +96,25 @@ Si on les modifie, les résultats varient : plus nb_public est grand moins le gr
 De plus, plus la proportion d'influenceurs est élevée et plus leur public écouteront la musique (parametres) plus la musique sera facilement diffusée dans le groupe. 
 Par ailleurs, plus la proportion de liens entre les individus de nationnalités différentes est élevée plus le graphe est connecté. 
 
+![image](https://user-images.githubusercontent.com/99737912/163955135-89bf58c0-1bf6-4ffe-92de-6c7b1c643696.png)
+
+Graphe à l'étape 1 pour une population de 100 individus, 50 influenceurs, 95% des voisins des influenceurs qui écouteront la musique et 5% de liens entre des personnes de nationnalités différentes.
+
+
+![image](https://user-images.githubusercontent.com/99737912/163955662-38dc9d1d-2b86-46de-8ba9-941b708fb3af.png)
+
+Graphe à l'étape 2 avec les paramètres ci-dessus.
+
+
+
+![image](https://user-images.githubusercontent.com/99737912/163956181-9e03a068-6af8-48a0-81a4-0e7c11b43836.png)
+
+Graphe à l'étape 1 pour une population de 30 individus, dont un septième d'influenceurs, 50% des voisins des influenceurs qui écouteront la musique et 5% de liens entre des personnes de nationnalités différentes.
+
+
+![image](https://user-images.githubusercontent.com/99737912/163956131-88b5bf90-f887-47ff-9bdc-c7de977be1be.png)
+
+Graphe à l'étape 2 avec les paramètres ci-dessus.
 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
